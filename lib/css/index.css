@@ -1,0 +1,48 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  overflow:hidden;
+}
+
+.container{
+	text-align:center;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    border
+    /* reset the text-align */
+    /*text-align:left;*/
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.btn{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#page-container{
+    height: 90%;
+    max-height: 90%;
+    overflow: auto;
+    bottom: 100px;
+}
+
+footer {
+    position: fixed;
+    height: 80px;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer-container{
+    width: 100%;
+    text-align:center;
+}
